@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+section{
+    background-color: tan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    margin: 5px;
+    border-radius: 5px;
+}
+header{
+    background-color: rosybrown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border-radius: 5px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 600px 40px;
+    grid-template-areas: "menu migas"
+                        "menu migas";
+}
+.menu{
+    background-color: tomato;
+    grid-area: menu;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border-radius: 5px;
+}
+.migas{
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: 30px;
+  margin: 5px;
+
+}
+.miga{
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+}
+.seion{
+    background-color: aquamarine;
+    margin: 5px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+footer{
+    background-color: bisque;
+    height: 50px;
+    margin: 5px;
+    border-radius: 5px;
+
+}

@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.layout{
+    background-color: #17a8a1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border-radius: 5px;
+}
+.boton {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 120px 120px 120px;
+    grid-template-areas: "btn-1 btn-2"
+                            "btn-3 btn-4"
+                            "btn-5 btn-5"
+                            "btn-6 btn-6";
+
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.btn-1{
+    background-color: beige;
+    grid-area: btn-1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border-radius: 5px;
+
+}
+.btn-2{
+    background-color: beige;
+    grid-area: btn-2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border-radius: 5px;
+
+}
+.btn-3{
+    background-color: beige;
+    grid-area: btn-3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border-radius: 5px;
+
+}
+.btn-4{
+    background-color: beige;
+    grid-area: btn-4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border-radius: 5px;
+
+}
+.btn-5{
+    background-color: beige;
+    grid-area: btn-5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border-radius: 5px;
+
+}
+.btn-6{
+    background-color: beige;
+    grid-area: btn-6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border-radius: 5px;
+
+}
+.boton a {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+}
+
+.boton a:hover {
+    background-color: #45a049;
+}
+footer{
+    background-color: #17a8a1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    height: 40px;
+}
